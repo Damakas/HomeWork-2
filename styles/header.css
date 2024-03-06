@@ -1,0 +1,38 @@
+.container__top {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0 20px;
+}
+
+.logo__top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.tagline h1 {
+    font-family: 'Caviar Dreams_Bold', sans-serif;
+    font-size: 50px;
+    line-height: 60px;
+}
+
+.tagline span {
+    font-size: 70px;
+}
+
+.nav__top {
+    display: flex;
+    gap: 30px;
+    font-family: "Roboto", sans-serif;
+}
+
+.nav__top a {
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 500;
+    color: black;
+}
+
+.nav__top a:hover {
+    color: #bdbfb3;
+}

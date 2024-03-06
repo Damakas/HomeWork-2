@@ -1,0 +1,222 @@
+/*HERO*/
+.hero {
+    display: flex;
+}
+
+.collage {
+    display: grid;
+    grid-template-rows: 300px 500px;
+    grid-template-columns: 300px 500px;
+
+}
+
+.box-1 {
+    padding: 0 20px 0 0;
+}
+
+.box-1 img {
+    width: 600px;
+    height: 700px;
+}
+
+.box-2 {
+    font-family: 'Caviar Dreams', sans-serif;
+    font-size: 40px;
+    position: relative;
+    display: inline-block;
+    margin-top: 80px;
+    padding: 0 60px;
+    white-space: nowrap;
+}
+
+.box-2::before {
+    content: " ";
+    background: #000;
+    width: 100px;
+    height: 1px;
+    top: -40px;
+    position: absolute;
+}
+
+.box-2::after {
+    content: " ";
+    background: #000;
+    width: 100px;
+    height: 1px;
+    bottom: -20px;
+    left: 1.5em;
+    position: absolute;
+}
+
+.box-3 {
+    grid-row: 2/3;
+    margin-top: 70px;
+}
+
+.box-3 img {
+    width: 300px;
+    height: 400px;
+}
+
+.box-4 {
+    grid-row: 2/-1;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.box-4 img {
+    width: 300px;
+    height: 300px;
+}
+
+/*LANDING__JUMP*/
+.landing__jump {
+    background: linear-gradient(90deg, rgb(249, 249, 249) 74%, rgb(245, 245, 245) 100%);
+}
+
+.jump__top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 70px;
+    background: #9f99b0;
+    width: 1250px;
+    height: 300px;
+}
+
+.jump__text {
+    font-family: 'Caviar Dreams', sans-serif;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+
+.jump__btn button {
+    padding: 10px 40px;
+    background: #ffffff;
+    font-family: 'Caviar Dreams', sans-serif;
+    font-size: 35px;
+    color: #9f99b0;
+    border: none;
+    cursor: pointer;
+}
+
+.jump__bottom {
+    display: flex;
+    width: 1250px;
+    padding: 120px 0 150px 150px;
+}
+
+.jump__bottom-main {
+    display: flex;
+    align-items: center;
+    font-family: 'Caviar Dreams', sans-serif;
+    color: #9f99b0;
+    font-size: 60px;
+    text-align: left;
+    line-height: 60px;
+    margin-left: 30px;
+}
+
+
+.jump__bottom-second {
+    font-family: 'Roboto', sans-serif;
+    color: #9f99b0;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.jump__bottom-second p {
+    text-indent: 25px;
+    margin: 0;
+}
+
+/*lANDING__MIDDLE*/
+.landing__middle {
+    background: linear-gradient(90deg, rgb(249, 249, 249) 74%, rgb(245, 245, 245) 100%);
+}
+
+.middle__title {
+    font-family: 'Caviar Dreams', sans-serif;
+    font-size: 65px;
+    color: #999999;
+    text-align: center;
+}
+
+.middle__container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+
+}
+
+.card__container {
+    padding: 150px 0 0 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+    width: 370px;
+    height: 570px;
+    background: #9f99b0;
+    color: #ffffff;
+    padding-left: 6px;
+}
+
+.card__disc {
+    display: grid;
+}
+
+.card__disc h1 {
+    font-family: 'Caviar Dreams', sans-serif;
+    font-size: 36px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.card__disc span {
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    padding-left: 40px;
+}
+
+.card__number {
+    font-family: 'Caviar Dreams_Bold', sans-serif;
+    font-size: 45px;
+    position: absolute;
+    margin-top: 345px;
+}
+
+.card__icons {
+    display: flex;
+    margin-top: 50px;
+    gap: 60px;
+}
+
+.card__icons-primary {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.card__icons-primary span {
+    font-family: 'Caviar Dreams', sans-serif;
+    font-size: 25px;
+    color: #cc0000;
+}
+
+.card__icons-second {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.card__icons-second span {
+    font-family: 'Caviar Dreams', sans-serif;
+    font-size: 21px;
+    color: #9f99b0;
+
+}

@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.landing__top {
+    background-image: url(../Img/background2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+@font-face {
+    font-family: 'Caviar Dreams';
+    src: url(../fonts/CaviarDreams.ttf);
+    font-family: 'Caviar Dreams_Bold';
+    src: url(../fonts/CaviarDreams_Bold.ttf);
+}
+
+.wrapper {
+    max-width: 1250px;
+    margin: 0 auto;
+}

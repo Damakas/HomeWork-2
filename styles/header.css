@@ -1,7 +1,7 @@
 .container__top {
     display: flex;
     justify-content: space-between;
-    padding: 30px 0 20px;
+    padding: 30px 30px 20px;
 }
 
 .logo__top {

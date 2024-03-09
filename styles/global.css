@@ -109,9 +109,8 @@ html {
     .landing__bottom-second-collage {
         width: 100%;
     }
-}
 
-@media(max-width:1024px) {}
+}
 
 @media(max-width:850px) {
     .nav__top {
@@ -156,6 +155,10 @@ html {
 
     .footer__container img {
         max-width: 100%;
+        height: 100%;
+    }
+
+    footer {
         height: 100%;
     }
 }

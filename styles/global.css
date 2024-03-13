@@ -29,6 +29,8 @@ html {
     margin: 0 auto;
 }
 
+/*ADAPTIVE*/
+
 @media (max-width:1300px) {
     .hero {
         flex-wrap: wrap;

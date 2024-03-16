@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../Img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+
+@font-face {
+    font-family: 'Caviar Dreams';
+    src: url(../fonts/CaviarDreams.ttf);
+    font-family: 'Caviar Dreams_Bold';
+    src: url(../fonts/CaviarDreams_Bold.ttf);
+}
+
+.wrapper {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+/*ADAPTIVE*/
+@media(max-width:850px) {
+    .nav__top {
+        flex-direction: column-reverse;
+        gap: 15px;
+        padding: 0 20px 50px;
+    }
+}
+
+@media(max-width:680px) {
+    .form__card-inner {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 50px;
+    }
+
+    .card__about {
+        padding-left: 10px;
+    }
+}

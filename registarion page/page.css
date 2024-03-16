@@ -1,61 +1,29 @@
-* {
-    box-sizing: border-box;
-}
-
-body,
-html {
-    margin: 0;
-    padding: 0;
-    min-width: 100vh;
-}
-
-body {
-    background-image: url(../Img/background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-
-}
-
-@font-face {
-    font-family: 'Caviar Dreams';
-    src: url(../fonts/CaviarDreams.ttf);
-    font-family: 'Caviar Dreams_Bold';
-    src: url(../fonts/CaviarDreams_Bold.ttf);
-}
-
-.wrapper {
-    max-width: 1250px;
-    margin: 0 auto;
-}
-
 /*FORM*/
 .form__title {
     font-family: 'Caviar Dreams', sans-serif;
     font-size: 80px;
     color: #9f99b0;
     text-align: center;
-    padding: 150px 0 100px;
+    padding: 150px 20px 100px;
+    width: 100%;
+    white-space: normal;
 }
 
 .form__container {
-    display: grid;
-    justify-content: space-between;
-    grid-template-columns: repeat(3, 300px);
-    grid-template-rows: repeat(3, auto);
-    justify-content: space-evenly;
-    row-gap: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
 }
 
 .form__card {
     display: flex;
     flex-direction: column;
-    text-align: center;
+    padding: 0 10px;
 }
 
 .form__card input {
-    padding: 30px 60px;
+    width: 300px;
+    padding: 30px 0;
     background-color: #d2cfd9;
     border: none;
     height: 30px;
@@ -65,7 +33,7 @@ body {
 .form__card textarea {
     border: none;
     background-color: #d2cfd9;
-    margin-bottom: 20px;
+    margin: 20px 0;
     font-size: 20px;
 }
 
@@ -73,7 +41,7 @@ body {
     font-family: 'Caviar Dreams', sans-serif;
     font-size: 40px;
     color: #9f99b0;
-    padding: 20px 5px 0;
+    padding: 15px 5px 0;
 }
 
 
@@ -82,6 +50,11 @@ body {
     height: 60px;
     background-color: #d2cfd9;
     text-align: left;
+}
+
+.card__photo,
+.card__photo input {
+    align-self: center;
 }
 
 .card__photo button {
@@ -100,31 +73,15 @@ body {
     transform: scale(1.1);
 }
 
-.card__photo {
-    grid-column: 2/3;
-    grid-row: 1;
-    text-align: center;
-}
+.form__card-inner {
+    display: flex;
+    justify-content: space-between;
 
-.card__nick {
-    grid-row: 2;
-    text-align: left;
-}
-
-.card__mail {
-    grid-column: 3/-2;
-    grid-row: 2;
-    text-align: right;
-}
-
-.card__about {
-    grid-column: 4/1;
-    grid-row: 3;
 }
 
 .form__button {
     text-align: center;
-    padding: 150px 0 250px;
+    padding: 150px 0 300px;
 }
 
 .form__button button {

@@ -8,6 +8,7 @@
     <link rel="shortcut icon" href="../Img/favicon.ico.png" type="image/x-icon">
     <link rel="stylesheet" href="../styles/header.css">
     <link rel="stylesheet" href="../registarion page/page.css">
+    <link rel="stylesheet" href="../registarion page/global.css">
     <link rel="stylesheet" href="../styles/footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -44,15 +45,17 @@
                     </div>
                     <label for="file">Upload photo</label>
                 </div>
-                <div class="form__card card__nick">
-                    <input type="text" name="nick" id="nick">
-                    <label for="nick">Nickname</label>
+                <div class="form__card-inner">
+                    <div class="form__card card__nick">
+                        <input type="text" name="nick" id="nick">
+                        <label for="nick">Nickname</label>
+                    </div>
+                    <div class="form__card card__mail" ">
+                        <input type=" email" name="email">
+                        <label for="email">Email</label>
+                    </div>
                 </div>
-                <div class="form__card card__mail">
-                    <input type="email" name="email">
-                    <label for="email">Email</label>
-                </div>
-                <div class="form__card card__about">
+                <div class="form__card card__about" style="text-align: center;">
                     <textarea name="text" id="" cols="100" rows="15"></textarea>
                     <label for="tex">Tell us something about you</label>
                 </div>

@@ -38,7 +38,7 @@ body {
     }
 }
 
-@media(max-width:680px) {
+@media(max-width:730px) {
     .hero__login {
         flex-direction: column;
         text-align: center;

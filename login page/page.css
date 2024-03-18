@@ -1,0 +1,73 @@
+.hero__login {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 100px;
+}
+
+.hero__login input {
+    width: 300px;
+    padding: 30px 20px;
+    background-color: #d2cfd9;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    font-size: 20px;
+}
+
+.hero__login input:focus {
+    background-color: rgb(233, 255, 190);
+}
+
+.hero__login label {
+    font-family: 'Caviar Dreams', sans-serif;
+    font-size: 40px;
+    color: #9f99b0;
+
+}
+
+.hero__login-email,
+.hero__login-password {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.hero__create {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    padding: 30px 0 100px;
+}
+
+.hero__create a {
+    text-decoration: none;
+    color: rgb(120, 120, 248);
+    margin-left: 5px;
+}
+
+.hero__create a:hover {
+    color: rgb(17, 17, 224);
+}
+
+.hero__btn {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 200px;
+}
+
+.hero__btn button {
+    background-color: #9f99b0;
+    color: #fafafa;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    border: none;
+    padding: 10px 80px;
+    cursor: pointer;
+}
+
+.hero__btn button:hover {
+    background-color: #716d7c;
+}

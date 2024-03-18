@@ -86,4 +86,9 @@ html {
     .hero__top-disc-main {
         white-space: nowrap;
     }
+
+    .hero__top-photo {
+        padding: 0 20px;
+    }
+
 }
